@@ -7,7 +7,11 @@
   --base-line-height: #{v.$base-line-height};
 
   // border color
-  --border-color-primary: #{v.$color-primary};
+  --border-color-primary: #{v.$color-base};
+
+  // Color
+  --color-primary: #{v.$color-primary};
+  --color-base-reverse: #{v.$color-base-reverse};
 
   // font size
   // title
