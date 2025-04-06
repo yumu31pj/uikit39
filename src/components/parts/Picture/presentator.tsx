@@ -16,7 +16,7 @@ export const PicturePresentator = ({
 }: PictureType) => {
 
   return (
-    <picture className={styles['picture']}>
+    <picture className={styles['c-picture']}>
       {srcSPWebp && 
         <source 
           srcSet={srcSPWebp} 
