@@ -1,0 +1,21 @@
+@use "./variables" as v;
+@use "./globals" as g;
+
+:root {
+  --base-font-size: #{g.getRem(v.$base-font-size)};
+  --base-font-weight: #{v.$base-font-weight};
+  --base-line-height: #{v.$base-line-height};
+
+  // 
+  --border-color-primary: #{v.$color-primary};
+
+  // margin sizes are calulated based on the base font size
+  --margin-xs: #{calc(g.getPx(v.$base-font-size) * 0.5)};
+  --margin-s: #{calc(g.getPx(v.$base-font-size) * 1)};
+  --margin-m: #{calc(g.getPx(v.$base-font-size) * 2)};
+  --margin-l: #{calc(g.getPx(v.$base-font-size) * 3)};
+  --margin-xl: #{calc(g.getPx(v.$base-font-size) * 4)};
+  --margin-xxl: #{calc(g.getPx(v.$base-font-size) * 5)};
+  
+  --min-width: #{v.$min-width};
+}
