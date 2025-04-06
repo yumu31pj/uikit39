@@ -1,6 +1,8 @@
 @use "variables" as v;
 @use "./globals" as g;
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 *,
 *::before,
 *::after {
@@ -35,7 +37,7 @@ body {
   font-size: var(--base-font-size);
   font-weight: var(--base-font-weight);
   font-family: 
-    'Noto Sans JP', 
+    'Noto Sans JP',
     Meiryo,
     sans-serif;
   line-height: var(--base-line-height);

@@ -6,8 +6,16 @@
   --base-font-weight: #{v.$base-font-weight};
   --base-line-height: #{v.$base-line-height};
 
-  // 
+  // border color
   --border-color-primary: #{v.$color-primary};
+
+  // font size
+  // title
+  --h2-font-size: #{v.$h2-font-size};
+  --h3-font-size: #{v.$h3-font-size};
+  --h4-font-size: #{v.$h4-font-size};
+  --h5-font-size: #{v.$h5-font-size};
+  --h6-font-size: #{v.$h6-font-size};
 
   // margin sizes are calulated based on the base font size
   --margin-xs: #{calc(g.getPx(v.$base-font-size) * 0.5)};

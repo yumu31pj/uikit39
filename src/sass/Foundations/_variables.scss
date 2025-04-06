@@ -1,7 +1,18 @@
+@use "./globals" as g;
+
 $base-font-size: 18;  //(px)
 $base-font-weight: 400;
 $base-line-height: 1;
 
 $color-primary: #000;
+
+// font size
+// title
+
+$h2-font-size: calc(g.getPx($base-font-size) * 1.5);
+$h3-font-size: calc(g.getPx($base-font-size) * 1.25);
+$h4-font-size: g.getPx($base-font-size);
+$h5-font-size: g.getPx($base-font-size);
+$h6-font-size: g.getPx($base-font-size);
 
 $min-width: 320px;
